@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    margin-bottom: 50px;
+    position: relative;
+    box-sizing: inherit;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    width: 100%;
+}
+
+.label {
+    color: #000;
+    background-color: #ffc107;
+    padding: 0.01em 16px;
+    position: absolute;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+}
+
+.label:hover {
+    color: #000;
+    background-color: orange;
+}
+
+b {
+    font-weight: bolder;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.row-container {
+    display: flex;
+    box-sizing: inherit;
+    width: 100%;
+}
+
+.row-half {
+    padding: 0.01em 16px;
+    width: 50%;
+}
+
+.half-img {
+    border-top: 6px solid #ccc !important;
+    border-color: #ff9800 !important;
+    box-sizing: inherit;
+}
+
+.row-half {
+    padding: 0.01em 16px;
+    width: 50%;
+}
+
+.half-img {
+    border-top: 6px solid #ccc !important;
+    border-color: #ffc107 !important;
+}
+
+.row-container {
+    display: flex;
+    width: 100%;
+    padding: 0.01em 16px;
+}
+
+.row-half {
+    padding: 0.01em 16px;
+    width: 50%;
+}
+
+.half-img {
+    border-top: 6px solid #ccc !important;
+    border-color: #ffc107 !important;
+}
+
+.row-half {
+    padding: 0.01em 16px;
+    width: 50%;
+}
+
+.half-img {
+    border-top: 6px solid #ccc !important;
+    border-color: #ffc107 !important;
+    width: 100% !important
+}
+
+@media only screen and (max-width:601px) {
+    .row-container {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:601px) {
+    .label {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:601px) {
+    .row-half {
+        width: 100%;
+    }
+}
